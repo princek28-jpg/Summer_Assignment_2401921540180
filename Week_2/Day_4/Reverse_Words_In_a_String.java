@@ -19,7 +19,6 @@ class Solution {
         return reverse(index+1,st,sb);
     }
     public String reverseWords(String s) {
-        int n=s.length();
         StringBuilder sb=new StringBuilder();
         String[] st=s.split(" ");
         return reverse(0,st,sb);
